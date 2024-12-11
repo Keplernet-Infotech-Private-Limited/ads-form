@@ -18,7 +18,9 @@ module.exports = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     number: DataTypes.STRING,
     service: DataTypes.STRING,
-    serviceDescription: DataTypes.TEXT
+    serviceDescription: DataTypes.TEXT,
+    otp: DataTypes.STRING,
+    isVerified: DataTypes.BOOLEAN
   }, {
     sequelize,
     modelName: 'Form',
