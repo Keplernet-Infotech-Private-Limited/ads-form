@@ -1,25 +1,62 @@
+# Node modules
+/node_modules/
+
+# Vite build output
+/dist/
+
+# Vite cache
+/.vite/
+
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.log.*
 
-node_modules
-dist
-dist-ssr
-*.local
-.evn
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Dependency directories
+jspm_packages/
+
+# IDE and editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS system files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Windows system files
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+
+# Yarn & npm lock files (uncomment to ignore lock files based on your preference)
+# /yarn.lock
+# /package-lock.json
+
+# TypeScript cache
+/.turbo/
+
+# Build tools cache
+/.esbuild/
+
+# Jest coverage
+/coverage/
+
+# React-specific (optional)
+/*.story.js
+*.test.js
+*.spec.js
+
+# Local server state
+/.cache/
+
+# Optional: Ignore if you use a specific testing setup or framework
+# /cypress/screenshots/
+# /cypress/videos/
