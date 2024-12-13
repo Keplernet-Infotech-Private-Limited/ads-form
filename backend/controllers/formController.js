@@ -31,9 +31,14 @@ const createForm = async (req, res) => {
   }
 };
 
-// Verify OTP
+// Verify OTP and optionally update form data
 const verifyOtp = async (req, res) => {
-  const { id, otp } = req.body;
+  const { otp, fullName, number, service, serviceDescription } = req.body; 
+  const id = req.body.id || req.query.id; // Support ID from body or query
+
+  if (!id) {
+    return res.status(400).json({ error: 'Form ID is required.' });
+  }
 
   try {
     const form = await Form.findByPk(id);
@@ -42,15 +47,23 @@ const verifyOtp = async (req, res) => {
     }
 
     if (form.otp === otp) {
+      // Update form with additional data if provided
       form.isVerified = true;
-      form.otp = null; // Clear OTP after verification
-      await form.save();
-      res.status(200).json({ message: 'OTP verified successfully.', form });
+      form.otp = null; // Clear OTP after successful verification
+      if (fullName) form.fullName = fullName;
+      if (number) form.number = number;
+      if (service) form.service = service;
+      if (serviceDescription) form.serviceDescription = serviceDescription;
+
+      await form.save(); // Save the updated form data
+
+      res.status(200).json({ message: 'OTP verified and form data updated successfully.', form });
     } else {
       res.status(400).json({ error: 'Invalid OTP.' });
     }
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    console.error('Error verifying OTP:', err);
+    res.status(500).json({ error: 'Internal Server Error' });
   }
 };
 
