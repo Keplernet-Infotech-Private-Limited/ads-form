@@ -2,7 +2,7 @@ import jsonData from "../serviceInfo.json"
 
 const InfoBBC = () => {
   return (
-    <div className="h-[85vh] overflow-y-auto">
+    <div className="h-[85vh] overflow-y-auto px-2 pb-2">
       <h2 className="text-3xl font-semibold text-center mt-3">Our Services</h2>
       {jsonData.map((service, index) => (
         <div key={index} className="bg-white rounded-xl shadow-md space-y-2 mt-4 p-6 max-w-xl">
