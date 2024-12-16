@@ -72,7 +72,7 @@ const LeadsForm = () => {
 
 
   return (
-    <div className="p-6 max-w-md mx-auto bg-white rounded-xl shadow-md space-y-4">
+    <div className="px-6 py-4 max-w-md bg-white rounded-xl shadow-md space-y-4">
       <h1 className="text-xl font-bold">Query Form</h1>
       <p>Complete the information below and we'll get back to you soon.</p>
       <form onSubmit={handleSubmit} className="space-y-4">

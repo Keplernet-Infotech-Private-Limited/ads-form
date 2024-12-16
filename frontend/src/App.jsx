@@ -1,11 +1,11 @@
 import './App.css'
-import LeadsForm from './components/LeadsForm'
+import Home from './pages/home'
 
 function App() {
 
   return (
     <>
-      <LeadsForm />
+      <Home />
     </>
   )
 }
