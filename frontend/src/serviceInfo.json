@@ -12,41 +12,41 @@
   ,{
     "serviceName": "Corporate Event Management",
     "serviceDescription": "Corporate event management involves planning, organizing, and executing business events, such as conferences, meetings, and workshops, ensuring a seamless experience that aligns with corporate objectives and enhances brand reputation",
-   "readmore": "https://bizzbuzzcreations.com/OfficeSpace" 
+    "readMore": "https://bizzbuzzcreations.com/OfficeSpace" 
   },
   {
     "serviceName": "BPO (Business Process Outsourcing)",
     "serviceDescription": "Business Process Outsourcing (BPO) involves contracting third-party service providers to handle non-core business functions, such as customer service, payroll, and data entry, enhancing efficiency and allowing organizations to focus on core activities.",
-    "readmore": "https://bizzbuzzcreations.com/HR"
+    "readMore": "https://bizzbuzzcreations.com/HR"
   }
   ,{
     "serviceName": "Comprehensive Tech Support",
     "serviceDescription": "For all of your tech issues, we offer professional assistance through our round-the-clock comprehensive tech support service. We make sure your devices function properly, from setup to troubleshooting, offering you peace of mind whenever and wherever you are.",
-    "readmore": "https://bizzbuzzcreations.com/techsupport"
+    "readMore": "https://bizzbuzzcreations.com/techsupport"
   }
   ,{
     "serviceName": "Cloud Computing Solutions",
     "serviceDescription": "Expand your enterprise with our scalable solutions for data storage, increased security, and collaboration in the cloud. Gain greater dependability, flexibility, and efficiency to propel your achievement.",
-    "readmore": "https://bizzbuzzcreations.com/cloudComputing"
+    "readMore": "https://bizzbuzzcreations.com/cloudComputing"
   }
   ,{
     "serviceName": "Financial Advisory Services",
-    "service Description": "Financial advisory services help individuals and businesses manage their finances effectively, providing guidance on investments, retirement planning, tax strategies, estate planning, and risk management to achieve financial goals and security.",
-    "readmore": "https://bizzbuzzcreations.com/Financial"
+    "serviceDescription": "Financial advisory services help individuals and businesses manage their finances effectively, providing guidance on investments, retirement planning, tax strategies, estate planning, and risk management to achieve financial goals and security.",
+    "readMore": "https://bizzbuzzcreations.com/Financial"
   }
   ,{
     "serviceName": "Business Consulting",
     "serviceDescription": "Business consulting provides expert advice to organizations on various aspects, including strategy, operations, finance, and human resources, helping them improve performance, solve problems, and achieve sustainable growth and success.",
-    "readmore": "https://bizzbuzzcreations.com/BussinessConsulting"
+    "readMore": "https://bizzbuzzcreations.com/BussinessConsulting"
   }
   ,{
     "serviceName": "Business Networking",
     "serviceDescription":"Business networking involves building relationships and connections among professionals and organizations to share resources, collaborate, and create opportunities, ultimately enhancing growth, visibility, and access to new markets and clients.",
-    "readmore": "https://bizzbuzzcreations.com/BussinessNetworking"
+    "readMore": "https://bizzbuzzcreations.com/BussinessNetworking"
   },
   {
     "serviceName": "IT Infrastructure Management",
     "serviceDescription": "Infrastructure management involves planning, designing, and constructing essential facilities and systems, such as transportation, utilities, and communication networks, to support economic growth, enhance quality of life, and promote sustainable communities.",
-    "readmore": "https://bizzbuzzcreations.com/ITInfrastructure"
+    "readMore": "https://bizzbuzzcreations.com/ITInfrastructure"
   }
 ]
